@@ -1,0 +1,1 @@
+MinGW not found at: D:\Programs\MinGW Configure
