@@ -1,0 +1,1562 @@
+Starting on 1-26 at 15:05:37
+
+Question q3
+===========
+
+Start: A
+Is the start a goal? False
+Add start to fringe
+Starting search
+Just Popped: A 0
+Just Popped: B 1.0
+Just Popped: C 2.0
+Just Popped: D 4.0
+Just Popped: G 10.0
+Goal found!
+*** PASS: test_cases\q3\graph_backtrack.test
+*** 	solution:		['1:A->C', '0:C->G']
+*** 	expanded_states:	['A', 'B', 'C', 'D']
+Start: A
+Is the start a goal? False
+Add start to fringe
+Starting search
+Just Popped: A 0
+Just Popped: B 1.0
+Just Popped: G 2.0
+Goal found!
+*** PASS: test_cases\q3\graph_bfs_vs_dfs.test
+*** 	solution:		['1:A->G']
+*** 	expanded_states:	['A', 'B']
+Start: A
+Is the start a goal? False
+Add start to fringe
+Starting search
+Just Popped: A 0
+Just Popped: B 1.0
+Just Popped: A 3.0
+Just Popped: C 5.0
+Just Popped: A 13.0
+Just Popped: G 21.0
+Goal found!
+*** PASS: test_cases\q3\graph_infinite.test
+*** 	solution:		['0:A->B', '1:B->C', '1:C->G']
+*** 	expanded_states:	['A', 'B', 'C']
+Start: A
+Is the start a goal? False
+Add start to fringe
+Starting search
+Just Popped: A 0
+Just Popped: B1 1.0
+Just Popped: C 2.0
+Just Popped: B2 4.0
+Just Popped: C 9.0
+Just Popped: C 20.0
+Just Popped: D 34.0
+Just Popped: E1 98.0
+Just Popped: F 162.0
+Just Popped: E2 290.0
+Just Popped: F 610.0
+Just Popped: F 1314.0
+Just Popped: G 2210.0
+Goal found!
+*** PASS: test_cases\q3\graph_manypaths.test
+*** 	solution:		['1:A->C', '0:C->D', '1:D->F', '0:F->G']
+*** 	expanded_states:	['A', 'B1', 'C', 'B2', 'D', 'E1', 'F', 'E2']
+Start: A
+Is the start a goal? False
+Add start to fringe
+Starting search
+Just Popped: A 0
+Just Popped: B 2.0
+Just Popped: D 3.0
+Just Popped: C 4.0
+Just Popped: A 4.0
+Just Popped: G 4.5
+Just Popped: F 5.0
+Goal found!
+*** PASS: test_cases\q3\ucs_0_graph.test
+*** 	solution:		['Right', 'Down', 'Down']
+*** 	expanded_states:	['A', 'B', 'D', 'C', 'G']
+Start: (34, 16)
+Is the start a goal? False
+Add start to fringe
+Starting search
+Just Popped: (34, 16) 0
+Just Popped: (34, 15) 1
+Just Popped: (33, 16) 1
+Just Popped: (34, 16) 2
+Just Popped: (34, 14) 2
+Just Popped: (34, 16) 2
+Just Popped: (32, 16) 2
+Just Popped: (34, 15) 3
+Just Popped: (33, 14) 3
+Just Popped: (33, 16) 3
+Just Popped: (31, 16) 3
+Just Popped: (34, 14) 4
+Just Popped: (32, 14) 4
+Just Popped: (32, 16) 4
+Just Popped: (30, 16) 4
+Just Popped: (33, 14) 5
+Just Popped: (31, 14) 5
+Just Popped: (31, 16) 5
+Just Popped: (29, 16) 5
+Just Popped: (32, 14) 6
+Just Popped: (30, 14) 6
+Just Popped: (30, 16) 6
+Just Popped: (28, 16) 6
+Just Popped: (30, 13) 7
+Just Popped: (31, 14) 7
+Just Popped: (29, 16) 7
+Just Popped: (27, 16) 7
+Just Popped: (30, 14) 8
+Just Popped: (30, 12) 8
+Just Popped: (28, 16) 8
+Just Popped: (26, 16) 8
+Just Popped: (30, 13) 9
+Just Popped: (31, 12) 9
+Just Popped: (27, 16) 9
+Just Popped: (25, 16) 9
+Just Popped: (32, 12) 10
+Just Popped: (30, 12) 10
+Just Popped: (25, 15) 10
+Just Popped: (26, 16) 10
+Just Popped: (24, 16) 10
+Just Popped: (33, 12) 11
+Just Popped: (31, 12) 11
+Just Popped: (25, 16) 11
+Just Popped: (25, 14) 11
+Just Popped: (25, 16) 11
+Just Popped: (23, 16) 11
+Just Popped: (34, 12) 12
+Just Popped: (32, 12) 12
+Just Popped: (25, 15) 12
+Just Popped: (26, 14) 12
+Just Popped: (24, 16) 12
+Just Popped: (22, 16) 12
+Just Popped: (34, 11) 13
+Just Popped: (33, 12) 13
+Just Popped: (27, 14) 13
+Just Popped: (25, 14) 13
+Just Popped: (23, 16) 13
+Just Popped: (21, 16) 13
+Just Popped: (34, 12) 14
+Just Popped: (34, 10) 14
+Just Popped: (27, 13) 14
+Just Popped: (26, 14) 14
+Just Popped: (22, 16) 14
+Just Popped: (20, 16) 14
+Just Popped: (34, 11) 15
+Just Popped: (33, 10) 15
+Just Popped: (27, 14) 15
+Just Popped: (27, 12) 15
+Just Popped: (21, 16) 15
+Just Popped: (19, 16) 15
+Just Popped: (34, 10) 16
+Just Popped: (32, 10) 16
+Just Popped: (27, 13) 16
+Just Popped: (27, 11) 16
+Just Popped: (20, 16) 16
+Just Popped: (18, 16) 16
+Just Popped: (33, 10) 17
+Just Popped: (31, 10) 17
+Just Popped: (27, 12) 17
+Just Popped: (26, 11) 17
+Just Popped: (19, 16) 17
+Just Popped: (17, 16) 17
+Just Popped: (32, 10) 18
+Just Popped: (30, 10) 18
+Just Popped: (27, 11) 18
+Just Popped: (25, 11) 18
+Just Popped: (18, 16) 18
+Just Popped: (16, 16) 18
+Just Popped: (30, 9) 19
+Just Popped: (31, 10) 19
+Just Popped: (29, 10) 19
+Just Popped: (26, 11) 19
+Just Popped: (24, 11) 19
+Just Popped: (17, 16) 19
+Just Popped: (15, 16) 19
+Just Popped: (30, 10) 20
+Just Popped: (30, 8) 20
+Just Popped: (30, 10) 20
+Just Popped: (24, 12) 20
+Just Popped: (25, 11) 20
+Just Popped: (16, 16) 20
+Just Popped: (14, 16) 20
+Just Popped: (30, 9) 21
+Just Popped: (31, 8) 21
+Just Popped: (24, 11) 21
+Just Popped: (23, 12) 21
+Just Popped: (15, 16) 21
+Just Popped: (13, 16) 21
+Just Popped: (32, 8) 22
+Just Popped: (30, 8) 22
+Just Popped: (24, 12) 22
+Just Popped: (22, 12) 22
+Just Popped: (14, 16) 22
+Just Popped: (12, 16) 22
+Just Popped: (33, 8) 23
+Just Popped: (31, 8) 23
+Just Popped: (23, 12) 23
+Just Popped: (21, 12) 23
+Just Popped: (13, 16) 23
+Just Popped: (11, 16) 23
+Just Popped: (34, 8) 24
+Just Popped: (32, 8) 24
+Just Popped: (22, 12) 24
+Just Popped: (20, 12) 24
+Just Popped: (12, 16) 24
+Just Popped: (10, 16) 24
+Just Popped: (34, 7) 25
+Just Popped: (33, 8) 25
+Just Popped: (20, 11) 25
+Just Popped: (21, 12) 25
+Just Popped: (19, 12) 25
+Just Popped: (11, 16) 25
+Just Popped: (9, 16) 25
+Just Popped: (34, 8) 26
+Just Popped: (34, 6) 26
+Just Popped: (20, 12) 26
+Just Popped: (20, 10) 26
+Just Popped: (19, 11) 26
+Just Popped: (19, 11) 26
+Just Popped: (20, 12) 26
+Just Popped: (18, 12) 26
+Just Popped: (10, 16) 26
+Just Popped: (8, 16) 26
+Just Popped: (34, 7) 27
+Just Popped: (33, 6) 27
+Just Popped: (20, 11) 27
+Just Popped: (20, 9) 27
+Just Popped: (19, 12) 27
+Just Popped: (20, 11) 27
+Just Popped: (19, 12) 27
+Just Popped: (17, 12) 27
+Just Popped: (9, 16) 27
+Just Popped: (7, 16) 27
+Just Popped: (34, 6) 28
+Just Popped: (32, 6) 28
+Just Popped: (20, 10) 28
+Just Popped: (21, 9) 28
+Just Popped: (17, 13) 28
+Just Popped: (18, 12) 28
+Just Popped: (16, 12) 28
+Just Popped: (8, 16) 28
+Just Popped: (6, 16) 28
+Just Popped: (33, 6) 29
+Just Popped: (31, 6) 29
+Just Popped: (22, 9) 29
+Just Popped: (20, 9) 29
+Just Popped: (17, 14) 29
+Just Popped: (17, 12) 29
+Just Popped: (17, 12) 29
+Just Popped: (15, 12) 29
+Just Popped: (7, 16) 29
+Just Popped: (5, 16) 29
+Just Popped: (32, 6) 30
+Just Popped: (30, 6) 30
+Just Popped: (23, 9) 30
+Just Popped: (21, 9) 30
+Just Popped: (17, 13) 30
+Just Popped: (16, 14) 30
+Just Popped: (16, 12) 30
+Just Popped: (14, 12) 30
+Just Popped: (6, 16) 30
+Just Popped: (4, 16) 30
+Just Popped: (30, 5) 31
+Just Popped: (31, 6) 31
+Just Popped: (29, 6) 31
+Just Popped: (24, 9) 31
+Just Popped: (22, 9) 31
+Just Popped: (17, 14) 31
+Just Popped: (15, 14) 31
+Just Popped: (14, 11) 31
+Just Popped: (15, 12) 31
+Just Popped: (13, 12) 31
+Just Popped: (5, 16) 31
+Just Popped: (3, 16) 31
+Just Popped: (30, 6) 32
+Just Popped: (30, 4) 32
+Just Popped: (30, 6) 32
+Just Popped: (25, 9) 32
+Just Popped: (23, 9) 32
+Just Popped: (16, 14) 32
+Just Popped: (14, 14) 32
+Just Popped: (14, 12) 32
+Just Popped: (14, 10) 32
+Just Popped: (14, 12) 32
+Just Popped: (12, 12) 32
+Just Popped: (4, 16) 32
+Just Popped: (2, 16) 32
+Just Popped: (30, 5) 33
+Just Popped: (30, 3) 33
+Just Popped: (31, 4) 33
+Just Popped: (26, 9) 33
+Just Popped: (24, 9) 33
+Just Popped: (15, 14) 33
+Just Popped: (13, 14) 33
+Just Popped: (14, 11) 33
+Just Popped: (15, 10) 33
+Just Popped: (12, 13) 33
+Just Popped: (12, 11) 33
+Just Popped: (13, 12) 33
+Just Popped: (3, 16) 33
+Just Popped: (1, 16) 33
+Just Popped: (30, 4) 34
+Just Popped: (31, 3) 34
+Just Popped: (31, 3) 34
+Just Popped: (32, 4) 34
+Just Popped: (30, 4) 34
+Just Popped: (27, 9) 34
+Just Popped: (25, 9) 34
+Just Popped: (14, 14) 34
+Just Popped: (12, 14) 34
+Just Popped: (16, 10) 34
+Just Popped: (14, 10) 34
+Just Popped: (12, 14) 34
+Just Popped: (12, 12) 34
+Just Popped: (12, 12) 34
+Just Popped: (12, 10) 34
+Just Popped: (1, 15) 34
+Just Popped: (2, 16) 34
+Just Popped: (31, 4) 35
+Just Popped: (30, 3) 35
+Just Popped: (33, 4) 35
+Just Popped: (31, 4) 35
+Just Popped: (27, 8) 35
+Just Popped: (26, 9) 35
+Just Popped: (12, 13) 35
+Just Popped: (13, 14) 35
+Just Popped: (17, 10) 35
+Just Popped: (15, 10) 35
+Just Popped: (12, 11) 35
+Just Popped: (11, 10) 35
+Just Popped: (1, 16) 35
+Just Popped: (1, 14) 35
+Just Popped: (34, 4) 36
+Just Popped: (32, 4) 36
+Just Popped: (27, 9) 36
+Just Popped: (27, 7) 36
+Just Popped: (17, 9) 36
+Just Popped: (16, 10) 36
+Just Popped: (12, 10) 36
+Just Popped: (10, 10) 36
+Just Popped: (1, 15) 36
+Just Popped: (1, 13) 36
+Just Popped: (34, 3) 37
+Just Popped: (33, 4) 37
+Just Popped: (27, 8) 37
+Just Popped: (27, 6) 37
+Just Popped: (17, 10) 37
+Just Popped: (17, 8) 37
+Just Popped: (10, 11) 37
+Just Popped: (11, 10) 37
+Just Popped: (1, 14) 37
+Just Popped: (1, 12) 37
+Just Popped: (34, 4) 38
+Just Popped: (34, 2) 38
+Just Popped: (27, 7) 38
+Just Popped: (27, 5) 38
+Just Popped: (17, 9) 38
+Just Popped: (16, 8) 38
+Just Popped: (10, 12) 38
+Just Popped: (10, 10) 38
+Just Popped: (1, 13) 38
+Just Popped: (1, 11) 38
+Just Popped: (34, 3) 39
+Just Popped: (34, 1) 39
+Just Popped: (27, 6) 39
+Just Popped: (27, 4) 39
+Just Popped: (17, 8) 39
+Just Popped: (15, 8) 39
+Just Popped: (10, 13) 39
+Just Popped: (10, 11) 39
+Just Popped: (1, 12) 39
+Just Popped: (1, 10) 39
+Just Popped: (34, 2) 40
+Just Popped: (33, 1) 40
+Just Popped: (27, 5) 40
+Just Popped: (27, 3) 40
+Just Popped: (16, 8) 40
+Just Popped: (14, 8) 40
+Just Popped: (10, 14) 40
+Just Popped: (10, 12) 40
+Just Popped: (1, 11) 40
+Just Popped: (1, 9) 40
+Just Popped: (34, 1) 41
+Just Popped: (32, 1) 41
+Just Popped: (27, 4) 41
+Just Popped: (27, 2) 41
+Just Popped: (15, 8) 41
+Just Popped: (13, 8) 41
+Just Popped: (10, 13) 41
+Just Popped: (9, 14) 41
+Just Popped: (1, 10) 41
+Just Popped: (1, 8) 41
+Just Popped: (33, 1) 42
+Just Popped: (31, 1) 42
+Just Popped: (27, 3) 42
+Just Popped: (27, 1) 42
+Just Popped: (26, 2) 42
+Just Popped: (14, 8) 42
+Just Popped: (12, 8) 42
+Just Popped: (10, 14) 42
+Just Popped: (8, 14) 42
+Just Popped: (1, 9) 42
+Just Popped: (1, 7) 42
+Just Popped: (32, 1) 43
+Just Popped: (30, 1) 43
+Just Popped: (27, 2) 43
+Just Popped: (28, 1) 43
+Just Popped: (27, 2) 43
+Just Popped: (25, 2) 43
+Just Popped: (13, 8) 43
+Just Popped: (11, 8) 43
+Just Popped: (8, 13) 43
+Just Popped: (9, 14) 43
+Just Popped: (1, 8) 43
+Just Popped: (2, 7) 43
+Just Popped: (31, 1) 44
+Just Popped: (29, 1) 44
+Just Popped: (29, 1) 44
+Just Popped: (27, 1) 44
+Just Popped: (26, 2) 44
+Just Popped: (24, 2) 44
+Just Popped: (11, 7) 44
+Just Popped: (12, 8) 44
+Just Popped: (8, 14) 44
+Just Popped: (8, 12) 44
+Just Popped: (3, 7) 44
+Just Popped: (1, 7) 44
+Just Popped: (30, 1) 45
+Just Popped: (28, 1) 45
+Just Popped: (25, 2) 45
+Just Popped: (23, 2) 45
+Just Popped: (11, 8) 45
+Just Popped: (11, 6) 45
+Just Popped: (8, 13) 45
+Just Popped: (8, 11) 45
+Just Popped: (4, 7) 45
+Just Popped: (2, 7) 45
+Just Popped: (24, 2) 46
+Just Popped: (22, 2) 46
+Just Popped: (11, 7) 46
+Just Popped: (10, 6) 46
+Just Popped: (8, 12) 46
+Just Popped: (8, 10) 46
+Just Popped: (4, 8) 46
+Just Popped: (3, 7) 46
+Just Popped: (23, 2) 47
+Just Popped: (21, 2) 47
+Just Popped: (11, 6) 47
+Just Popped: (9, 6) 47
+Just Popped: (8, 11) 47
+Just Popped: (8, 9) 47
+Just Popped: (4, 9) 47
+Just Popped: (4, 7) 47
+Just Popped: (22, 2) 48
+Just Popped: (20, 2) 48
+Just Popped: (10, 6) 48
+Just Popped: (8, 6) 48
+Just Popped: (8, 10) 48
+Just Popped: (8, 8) 48
+Just Popped: (4, 10) 48
+Just Popped: (4, 8) 48
+Just Popped: (21, 2) 49
+Just Popped: (19, 2) 49
+Just Popped: (9, 6) 49
+Just Popped: (7, 6) 49
+Just Popped: (8, 9) 49
+Just Popped: (7, 8) 49
+Just Popped: (4, 11) 49
+Just Popped: (4, 9) 49
+Just Popped: (3, 10) 49
+Just Popped: (20, 2) 50
+Just Popped: (18, 2) 50
+Just Popped: (8, 6) 50
+Just Popped: (6, 6) 50
+Just Popped: (8, 8) 50
+Just Popped: (6, 8) 50
+Just Popped: (4, 12) 50
+Just Popped: (4, 10) 50
+Just Popped: (4, 10) 50
+Just Popped: (19, 2) 51
+Just Popped: (17, 2) 51
+Just Popped: (6, 5) 51
+Just Popped: (7, 6) 51
+Just Popped: (6, 9) 51
+Just Popped: (7, 8) 51
+Just Popped: (4, 13) 51
+Just Popped: (4, 11) 51
+Just Popped: (18, 2) 52
+Just Popped: (16, 2) 52
+Just Popped: (6, 6) 52
+Just Popped: (5, 5) 52
+Just Popped: (6, 10) 52
+Just Popped: (6, 8) 52
+Just Popped: (4, 14) 52
+Just Popped: (4, 12) 52
+Just Popped: (17, 2) 53
+Just Popped: (15, 2) 53
+Just Popped: (6, 5) 53
+Just Popped: (4, 5) 53
+Just Popped: (6, 11) 53
+Just Popped: (6, 9) 53
+Just Popped: (4, 13) 53
+Just Popped: (5, 14) 53
+Just Popped: (15, 3) 54
+Just Popped: (16, 2) 54
+Just Popped: (14, 2) 54
+Just Popped: (5, 5) 54
+Just Popped: (3, 5) 54
+Just Popped: (6, 12) 54
+Just Popped: (6, 10) 54
+Just Popped: (6, 14) 54
+Just Popped: (4, 14) 54
+Just Popped: (15, 4) 55
+Just Popped: (15, 2) 55
+Just Popped: (15, 2) 55
+Just Popped: (13, 2) 55
+Just Popped: (4, 5) 55
+Just Popped: (2, 5) 55
+Just Popped: (6, 13) 55
+Just Popped: (6, 11) 55
+Just Popped: (6, 13) 55
+Just Popped: (5, 14) 55
+Just Popped: (15, 3) 56
+Just Popped: (16, 4) 56
+Just Popped: (14, 2) 56
+Just Popped: (12, 2) 56
+Just Popped: (3, 5) 56
+Just Popped: (1, 5) 56
+Just Popped: (6, 14) 56
+Just Popped: (6, 12) 56
+Just Popped: (17, 4) 57
+Just Popped: (15, 4) 57
+Just Popped: (13, 2) 57
+Just Popped: (11, 2) 57
+Just Popped: (1, 4) 57
+Just Popped: (2, 5) 57
+Just Popped: (18, 4) 58
+Just Popped: (16, 4) 58
+Just Popped: (12, 2) 58
+Just Popped: (10, 2) 58
+Just Popped: (1, 5) 58
+Just Popped: (1, 3) 58
+Just Popped: (19, 4) 59
+Just Popped: (17, 4) 59
+Just Popped: (10, 1) 59
+Just Popped: (11, 2) 59
+Just Popped: (1, 4) 59
+Just Popped: (2, 3) 59
+Just Popped: (19, 5) 60
+Just Popped: (20, 4) 60
+Just Popped: (18, 4) 60
+Just Popped: (10, 2) 60
+Just Popped: (9, 1) 60
+Just Popped: (3, 3) 60
+Just Popped: (1, 3) 60
+Just Popped: (19, 6) 61
+Just Popped: (19, 4) 61
+Just Popped: (21, 4) 61
+Just Popped: (19, 4) 61
+Just Popped: (10, 1) 61
+Just Popped: (8, 1) 61
+Just Popped: (4, 3) 61
+Just Popped: (2, 3) 61
+Just Popped: (19, 7) 62
+Just Popped: (19, 5) 62
+Just Popped: (18, 6) 62
+Just Popped: (21, 5) 62
+Just Popped: (20, 4) 62
+Just Popped: (9, 1) 62
+Just Popped: (7, 1) 62
+Just Popped: (5, 3) 62
+Just Popped: (3, 3) 62
+Just Popped: (19, 6) 63
+Just Popped: (20, 7) 63
+Just Popped: (19, 6) 63
+Just Popped: (17, 6) 63
+Just Popped: (21, 4) 63
+Just Popped: (22, 5) 63
+Just Popped: (8, 1) 63
+Just Popped: (6, 1) 63
+Just Popped: (6, 3) 63
+Just Popped: (4, 3) 63
+Just Popped: (21, 7) 64
+Just Popped: (19, 7) 64
+Just Popped: (18, 6) 64
+Just Popped: (16, 6) 64
+Just Popped: (23, 5) 64
+Just Popped: (21, 5) 64
+Just Popped: (7, 1) 64
+Just Popped: (5, 1) 64
+Just Popped: (7, 3) 64
+Just Popped: (5, 3) 64
+Just Popped: (22, 7) 65
+Just Popped: (20, 7) 65
+Just Popped: (17, 6) 65
+Just Popped: (15, 6) 65
+Just Popped: (24, 5) 65
+Just Popped: (22, 5) 65
+Just Popped: (6, 1) 65
+Just Popped: (4, 1) 65
+Just Popped: (8, 3) 65
+Just Popped: (6, 3) 65
+Just Popped: (23, 7) 66
+Just Popped: (21, 7) 66
+Just Popped: (16, 6) 66
+Just Popped: (14, 6) 66
+Just Popped: (24, 6) 66
+Just Popped: (23, 5) 66
+Just Popped: (5, 1) 66
+Just Popped: (3, 1) 66
+Just Popped: (8, 4) 66
+Just Popped: (7, 3) 66
+Just Popped: (24, 7) 67
+Just Popped: (22, 7) 67
+Just Popped: (15, 6) 67
+Just Popped: (13, 6) 67
+Just Popped: (24, 7) 67
+Just Popped: (24, 5) 67
+Just Popped: (4, 1) 67
+Just Popped: (2, 1) 67
+Just Popped: (8, 3) 67
+Just Popped: (9, 4) 67
+Just Popped: (24, 6) 68
+Just Popped: (23, 7) 68
+Just Popped: (13, 5) 68
+Just Popped: (14, 6) 68
+Just Popped: (3, 1) 68
+Just Popped: (1, 1) 68
+Goal found!
+*** PASS: test_cases\q3\ucs_1_problemC.test
+*** 	pacman layout:		mediumMaze
+*** 	solution length: 68
+*** 	nodes expanded:		269
+Start: (34, 16)
+Is the start a goal? False
+Add start to fringe
+Starting search
+Just Popped: (34, 16) 0
+Just Popped: (34, 15) 5.82076609135e-11
+Just Popped: (33, 16) 1.16415321827e-10
+Just Popped: (34, 16) 1.16415321827e-10
+Just Popped: (34, 14) 1.16415321827e-10
+Just Popped: (34, 16) 1.7462298274e-10
+Just Popped: (34, 15) 1.7462298274e-10
+Just Popped: (33, 14) 2.32830643654e-10
+Just Popped: (34, 14) 2.91038304567e-10
+Just Popped: (32, 16) 3.49245965481e-10
+Just Popped: (32, 14) 4.65661287308e-10
+Just Popped: (33, 16) 4.65661287308e-10
+Just Popped: (33, 14) 5.82076609135e-10
+Just Popped: (31, 16) 8.14907252789e-10
+Just Popped: (31, 14) 9.31322574615e-10
+Just Popped: (32, 16) 1.04773789644e-09
+Just Popped: (32, 14) 1.16415321827e-09
+Just Popped: (30, 16) 1.7462298274e-09
+Just Popped: (30, 14) 1.86264514923e-09
+Just Popped: (31, 16) 2.21189111471e-09
+Just Popped: (31, 14) 2.32830643654e-09
+Just Popped: (30, 13) 2.79396772385e-09
+Just Popped: (29, 16) 3.60887497663e-09
+Just Popped: (30, 14) 3.72529029846e-09
+Just Popped: (30, 12) 3.72529029846e-09
+Just Popped: (31, 12) 4.19095158577e-09
+Just Popped: (32, 12) 4.42378222942e-09
+Just Popped: (30, 16) 4.54019755125e-09
+Just Popped: (33, 12) 4.54019755125e-09
+Just Popped: (34, 12) 4.59840521216e-09
+Just Popped: (30, 13) 4.65661287308e-09
+Just Popped: (34, 11) 4.65661287308e-09
+Just Popped: (33, 12) 4.71482053399e-09
+Just Popped: (34, 12) 4.71482053399e-09
+Just Popped: (34, 10) 4.71482053399e-09
+Just Popped: (32, 12) 4.7730281949e-09
+Just Popped: (34, 11) 4.7730281949e-09
+Just Popped: (33, 10) 4.83123585582e-09
+Just Popped: (31, 12) 4.88944351673e-09
+Just Popped: (34, 10) 4.88944351673e-09
+Just Popped: (32, 10) 5.06406649947e-09
+Just Popped: (30, 12) 5.12227416039e-09
+Just Popped: (33, 10) 5.1804818213e-09
+Just Popped: (31, 10) 5.52972778678e-09
+Just Popped: (32, 10) 5.76255843043e-09
+Just Popped: (30, 10) 6.46105036139e-09
+Just Popped: (31, 10) 6.9267116487e-09
+Just Popped: (28, 16) 7.3341652751e-09
+Just Popped: (30, 9) 7.39237293601e-09
+Just Popped: (29, 10) 8.32369551063e-09
+Just Popped: (30, 10) 8.32369551063e-09
+Just Popped: (30, 8) 8.32369551063e-09
+Just Popped: (31, 8) 8.78935679793e-09
+Just Popped: (32, 8) 9.02218744159e-09
+Just Popped: (33, 8) 9.13860276341e-09
+Just Popped: (29, 16) 9.19681042433e-09
+Just Popped: (34, 8) 9.19681042433e-09
+Just Popped: (30, 10) 9.25501808524e-09
+Just Popped: (30, 9) 9.25501808524e-09
+Just Popped: (34, 7) 9.25501808524e-09
+Just Popped: (33, 8) 9.31322574615e-09
+Just Popped: (34, 8) 9.31322574615e-09
+Just Popped: (34, 6) 9.31322574615e-09
+Just Popped: (32, 8) 9.37143340707e-09
+Just Popped: (34, 7) 9.37143340707e-09
+Just Popped: (33, 6) 9.42964106798e-09
+Just Popped: (31, 8) 9.4878487289e-09
+Just Popped: (34, 6) 9.4878487289e-09
+Just Popped: (32, 6) 9.66247171164e-09
+Just Popped: (30, 8) 9.72067937255e-09
+Just Popped: (33, 6) 9.77888703346e-09
+Just Popped: (31, 6) 1.01281329989e-08
+Just Popped: (32, 6) 1.03609636426e-08
+Just Popped: (30, 6) 1.10594555736e-08
+Just Popped: (31, 6) 1.15251168609e-08
+Just Popped: (30, 5) 1.19907781482e-08
+Just Popped: (29, 6) 1.29221007228e-08
+Just Popped: (30, 6) 1.29221007228e-08
+Just Popped: (30, 4) 1.29221007228e-08
+Just Popped: (31, 4) 1.33877620101e-08
+Just Popped: (32, 4) 1.36205926538e-08
+Just Popped: (33, 4) 1.37370079756e-08
+Just Popped: (34, 4) 1.37952156365e-08
+Just Popped: (30, 6) 1.38534232974e-08
+Just Popped: (30, 5) 1.38534232974e-08
+Just Popped: (30, 3) 1.38534232974e-08
+Just Popped: (31, 3) 1.38534232974e-08
+Just Popped: (34, 3) 1.38534232974e-08
+Just Popped: (33, 4) 1.39116309583e-08
+Just Popped: (34, 4) 1.39116309583e-08
+Just Popped: (34, 2) 1.39116309583e-08
+Just Popped: (32, 4) 1.39698386192e-08
+Just Popped: (34, 3) 1.39698386192e-08
+Just Popped: (34, 1) 1.39698386192e-08
+Just Popped: (34, 2) 1.40280462801e-08
+Just Popped: (31, 4) 1.40862539411e-08
+Just Popped: (33, 1) 1.40862539411e-08
+Just Popped: (34, 1) 1.4144461602e-08
+Just Popped: (30, 4) 1.43190845847e-08
+Just Popped: (31, 3) 1.43190845847e-08
+Just Popped: (31, 4) 1.43190845847e-08
+Just Popped: (32, 1) 1.43190845847e-08
+Just Popped: (33, 1) 1.44354999065e-08
+Just Popped: (27, 16) 1.4784745872e-08
+Just Popped: (30, 4) 1.4784745872e-08
+Just Popped: (30, 3) 1.4784745872e-08
+Just Popped: (31, 1) 1.4784745872e-08
+Just Popped: (32, 1) 1.50175765157e-08
+Just Popped: (30, 1) 1.57160684466e-08
+Just Popped: (31, 1) 1.61817297339e-08
+Just Popped: (29, 1) 1.75787135959e-08
+Just Popped: (28, 16) 1.85100361705e-08
+Just Popped: (30, 1) 1.85100361705e-08
+Just Popped: (28, 1) 2.13040038943e-08
+Just Popped: (29, 1) 2.31666490436e-08
+Just Popped: (27, 1) 2.87545844913e-08
+Just Popped: (26, 16) 2.96859070659e-08
+Just Popped: (28, 1) 3.24798747897e-08
+Just Popped: (27, 2) 3.62051650882e-08
+Just Popped: (27, 16) 3.71364876628e-08
+Just Popped: (27, 3) 4.36557456851e-08
+Just Popped: (27, 1) 4.36557456851e-08
+Just Popped: (26, 2) 5.1106326282e-08
+Just Popped: (27, 4) 5.1106326282e-08
+Just Popped: (27, 2) 5.1106326282e-08
+Just Popped: (27, 2) 5.85569068789e-08
+Just Popped: (27, 5) 5.85569068789e-08
+Just Popped: (27, 3) 5.85569068789e-08
+Just Popped: (25, 16) 5.94882294536e-08
+Just Popped: (27, 6) 6.60074874759e-08
+Just Popped: (27, 4) 6.60074874759e-08
+Just Popped: (27, 7) 7.34580680728e-08
+Just Popped: (27, 5) 7.34580680728e-08
+Just Popped: (26, 16) 7.43893906474e-08
+Just Popped: (25, 2) 8.09086486697e-08
+Just Popped: (27, 8) 8.09086486697e-08
+Just Popped: (27, 6) 8.09086486697e-08
+Just Popped: (27, 9) 8.83592292666e-08
+Just Popped: (27, 7) 8.83592292666e-08
+Just Popped: (25, 15) 8.92905518413e-08
+Just Popped: (26, 2) 9.58098098636e-08
+Just Popped: (27, 8) 9.58098098636e-08
+Just Popped: (26, 9) 1.0326039046e-07
+Just Popped: (27, 9) 1.10710971057e-07
+Just Popped: (24, 16) 1.19092874229e-07
+Just Popped: (25, 16) 1.19092874229e-07
+Just Popped: (25, 14) 1.19092874229e-07
+Just Popped: (25, 9) 1.33062712848e-07
+Just Popped: (26, 14) 1.33994035423e-07
+Just Popped: (24, 2) 1.40513293445e-07
+Just Popped: (27, 14) 1.4144461602e-07
+Just Popped: (26, 9) 1.47963874042e-07
+Just Popped: (25, 16) 1.48895196617e-07
+Just Popped: (25, 15) 1.48895196617e-07
+Just Popped: (27, 13) 1.48895196617e-07
+Just Popped: (26, 14) 1.56345777214e-07
+Just Popped: (27, 14) 1.56345777214e-07
+Just Popped: (27, 12) 1.56345777214e-07
+Just Popped: (25, 14) 1.6379635781e-07
+Just Popped: (27, 13) 1.6379635781e-07
+Just Popped: (27, 11) 1.6379635781e-07
+Just Popped: (25, 2) 1.70315615833e-07
+Just Popped: (27, 12) 1.71246938407e-07
+Just Popped: (26, 11) 1.78697519004e-07
+Just Popped: (27, 11) 1.86148099601e-07
+Just Popped: (24, 9) 1.92667357624e-07
+Just Popped: (25, 11) 2.08499841392e-07
+Just Popped: (25, 9) 2.22469680011e-07
+Just Popped: (26, 11) 2.23401002586e-07
+Just Popped: (23, 16) 2.3830216378e-07
+Just Popped: (23, 2) 2.59722582996e-07
+Just Popped: (24, 11) 2.68104486167e-07
+Just Popped: (24, 16) 2.97906808555e-07
+Just Popped: (25, 11) 2.97906808555e-07
+Just Popped: (23, 9) 3.11876647174e-07
+Just Popped: (24, 2) 3.19327227771e-07
+Just Popped: (24, 12) 3.27709130943e-07
+Just Popped: (24, 9) 3.7148129195e-07
+Just Popped: (24, 11) 3.87313775718e-07
+Just Popped: (23, 12) 4.46918420494e-07
+Just Popped: (22, 16) 4.76720742881e-07
+Just Popped: (22, 2) 4.98141162097e-07
+Just Popped: (24, 12) 5.06523065269e-07
+Just Popped: (22, 9) 5.50295226276e-07
+Just Popped: (23, 16) 5.95930032432e-07
+Just Popped: (23, 2) 6.17350451648e-07
+Just Popped: (23, 9) 6.69504515827e-07
+Just Popped: (22, 12) 6.85336999595e-07
+Just Popped: (23, 12) 8.04546289146e-07
+Just Popped: (21, 16) 9.53557901084e-07
+Just Popped: (21, 2) 9.74978320301e-07
+Just Popped: (21, 9) 1.02713238448e-06
+Just Popped: (21, 12) 1.1621741578e-06
+Just Popped: (22, 16) 1.19197648019e-06
+Just Popped: (22, 2) 1.2133968994e-06
+Just Popped: (22, 9) 1.26555096358e-06
+Just Popped: (22, 12) 1.4005927369e-06
+Just Popped: (20, 16) 1.90723221749e-06
+Just Popped: (20, 2) 1.92865263671e-06
+Just Popped: (20, 9) 1.98080670089e-06
+Just Popped: (20, 12) 2.1158484742e-06
+Just Popped: (21, 16) 2.38406937569e-06
+Just Popped: (21, 2) 2.40548979491e-06
+Just Popped: (21, 9) 2.45764385909e-06
+Just Popped: (21, 12) 2.59268563241e-06
+Just Popped: (20, 10) 2.93448101729e-06
+Just Popped: (20, 11) 3.06952279061e-06
+Just Popped: (19, 16) 3.8145808503e-06
+Just Popped: (19, 2) 3.83600126952e-06
+Just Popped: (20, 11) 3.8881553337e-06
+Just Popped: (20, 9) 3.8881553337e-06
+Just Popped: (19, 12) 4.02319710702e-06
+Just Popped: (20, 12) 4.02319710702e-06
+Just Popped: (20, 10) 4.02319710702e-06
+Just Popped: (20, 16) 4.76825516671e-06
+Just Popped: (20, 2) 4.78967558593e-06
+Just Popped: (19, 11) 4.97687142342e-06
+Just Popped: (20, 12) 4.97687142342e-06
+Just Popped: (19, 11) 5.93054573983e-06
+Just Popped: (20, 11) 5.93054573983e-06
+Just Popped: (19, 12) 6.88422005624e-06
+Just Popped: (18, 16) 7.62927811593e-06
+Just Popped: (18, 2) 7.65069853514e-06
+Just Popped: (18, 12) 7.83789437264e-06
+Just Popped: (19, 16) 9.53662674874e-06
+Just Popped: (19, 2) 9.55804716796e-06
+Just Popped: (19, 12) 9.74524300545e-06
+Just Popped: (17, 16) 1.52586726472e-05
+Just Popped: (17, 2) 1.52800930664e-05
+Just Popped: (17, 12) 1.54672889039e-05
+Just Popped: (18, 16) 1.90733699128e-05
+Just Popped: (18, 2) 1.9094790332e-05
+Just Popped: (18, 12) 1.92819861695e-05
+Just Popped: (17, 13) 2.30966834351e-05
+Just Popped: (16, 16) 3.05174617097e-05
+Just Popped: (16, 2) 3.05388821289e-05
+Just Popped: (16, 12) 3.07260779664e-05
+Just Popped: (17, 14) 3.07260779664e-05
+Just Popped: (17, 12) 3.07260779664e-05
+Just Popped: (17, 16) 3.81468562409e-05
+Just Popped: (17, 2) 3.81682766601e-05
+Just Popped: (17, 12) 3.83554724976e-05
+Just Popped: (17, 13) 3.83554724976e-05
+Just Popped: (16, 14) 4.59848670289e-05
+Just Popped: (17, 14) 5.36142615601e-05
+Just Popped: (15, 16) 6.10350398347e-05
+Just Popped: (15, 2) 6.10564602539e-05
+Just Popped: (15, 12) 6.12436560914e-05
+Just Popped: (16, 16) 7.62938288972e-05
+Just Popped: (16, 2) 7.63152493164e-05
+Just Popped: (15, 14) 7.65024451539e-05
+Just Popped: (16, 12) 7.65024451539e-05
+Just Popped: (15, 3) 9.15740383789e-05
+Just Popped: (16, 14) 9.17612342164e-05
+Just Popped: (14, 16) 0.000122070196085
+Just Popped: (14, 2) 0.000122091616504
+Just Popped: (15, 4) 0.000122091616504
+Just Popped: (15, 2) 0.000122091616504
+Just Popped: (14, 12) 0.000122278812341
+Just Popped: (16, 4) 0.000137350405566
+Just Popped: (14, 14) 0.000137537601404
+Just Popped: (17, 4) 0.000144979800098
+Just Popped: (18, 4) 0.000148794497363
+Just Popped: (19, 4) 0.000150701845996
+Just Popped: (20, 4) 0.000151655520312
+Just Popped: (21, 4) 0.000152132357471
+Just Popped: (15, 16) 0.00015258777421
+Just Popped: (15, 2) 0.000152609194629
+Just Popped: (15, 3) 0.000152609194629
+Just Popped: (19, 5) 0.000152609194629
+Just Popped: (21, 5) 0.000152609194629
+Just Popped: (15, 12) 0.000152796390466
+Just Popped: (22, 5) 0.000152847613208
+Just Popped: (23, 5) 0.000152966822498
+Just Popped: (24, 5) 0.000153026427142
+Just Popped: (20, 4) 0.000153086031787
+Just Popped: (21, 4) 0.000153086031787
+Just Popped: (24, 6) 0.000153086031787
+Just Popped: (23, 5) 0.000153145636432
+Just Popped: (24, 7) 0.000153145636432
+Just Popped: (24, 5) 0.000153145636432
+Just Popped: (22, 5) 0.000153205241077
+Just Popped: (24, 6) 0.000153205241077
+Just Popped: (23, 7) 0.000153264845721
+Just Popped: (21, 5) 0.000153324450366
+Just Popped: (24, 7) 0.000153324450366
+Just Popped: (22, 7) 0.000153503264301
+Just Popped: (19, 4) 0.000153562868945
+Just Popped: (23, 7) 0.00015362247359
+Just Popped: (21, 7) 0.000153980101459
+Just Popped: (22, 7) 0.000154218520038
+Just Popped: (18, 4) 0.000154516543262
+Just Popped: (19, 6) 0.000154516543262
+Just Popped: (19, 4) 0.000154516543262
+Just Popped: (20, 7) 0.000154933775775
+Just Popped: (21, 7) 0.000155410612933
+Just Popped: (17, 4) 0.000156423891895
+Just Popped: (19, 7) 0.000156423891895
+Just Popped: (19, 5) 0.000156423891895
+Just Popped: (19, 7) 0.000156841124408
+Just Popped: (20, 7) 0.000157377566211
+Just Popped: (18, 6) 0.000158331240527
+Just Popped: (19, 6) 0.000158331240527
+Just Popped: (16, 4) 0.00016023858916
+Just Popped: (19, 6) 0.00016023858916
+Just Popped: (17, 6) 0.000165960635059
+Just Popped: (15, 4) 0.000167867983691
+Just Popped: (15, 14) 0.000168055179529
+Just Popped: (18, 6) 0.000169775332324
+Just Popped: (16, 6) 0.000181219424121
+Just Popped: (14, 11) 0.000183313968591
+Just Popped: (17, 6) 0.000188848818652
+Just Popped: (15, 6) 0.000211737002246
+Just Popped: (16, 6) 0.000226995791309
+Just Popped: (13, 16) 0.000244140508585
+Just Popped: (13, 2) 0.000244161929004
+Just Popped: (13, 12) 0.000244349124841
+Just Popped: (14, 12) 0.000244349124841
+Just Popped: (14, 10) 0.000244349124841
+Just Popped: (13, 14) 0.000259607913904
+Just Popped: (14, 6) 0.000272772158496
+Just Popped: (15, 10) 0.000274866702966
+Just Popped: (16, 10) 0.000290125492029
+Just Popped: (17, 10) 0.00029775488656
+Just Popped: (15, 6) 0.000303289736621
+Just Popped: (14, 16) 0.000305175664835
+Just Popped: (14, 2) 0.000305197085254
+Just Popped: (14, 12) 0.000305384281091
+Just Popped: (14, 11) 0.000305384281091
+Just Popped: (17, 9) 0.000305384281091
+Just Popped: (16, 10) 0.000313013675623
+Just Popped: (17, 10) 0.000313013675623
+Just Popped: (17, 8) 0.000313013675623
+Just Popped: (14, 14) 0.000320643070154
+Just Popped: (15, 10) 0.000320643070154
+Just Popped: (17, 9) 0.000320643070154
+Just Popped: (16, 8) 0.000328272464685
+Just Popped: (14, 10) 0.000335901859216
+Just Popped: (17, 8) 0.000335901859216
+Just Popped: (15, 8) 0.00035879004281
+Just Popped: (16, 8) 0.000374048831873
+Just Popped: (13, 6) 0.000394842470996
+Just Popped: (14, 8) 0.00041982519906
+Just Popped: (15, 8) 0.000450342777185
+Just Popped: (14, 6) 0.000455877627246
+Just Popped: (12, 16) 0.000488281133585
+Just Popped: (12, 2) 0.000488302554004
+Just Popped: (12, 12) 0.000488489749841
+Just Popped: (12, 14) 0.000503748538904
+Just Popped: (13, 5) 0.000516912783496
+Just Popped: (13, 8) 0.00054189551156
+Just Popped: (14, 8) 0.00060293066781
+Just Popped: (13, 16) 0.000610351446085
+Just Popped: (13, 2) 0.000610372866504
+Just Popped: (13, 12) 0.000610560062341
+Just Popped: (13, 14) 0.000625818851404
+Just Popped: (13, 6) 0.000638983095996
+Just Popped: (13, 4) 0.000638983095996
+Just Popped: (12, 13) 0.000732630374841
+Just Popped: (12, 11) 0.000732630374841
+Just Popped: (12, 13) 0.000747889163904
+Just Popped: (13, 5) 0.000761053408496
+Just Popped: (12, 8) 0.00078603613656
+Just Popped: (12, 4) 0.000883123720996
+Just Popped: (13, 8) 0.00090810644906
+Just Popped: (11, 16) 0.000976562383585
+Just Popped: (11, 2) 0.000976583804004
+Just Popped: (12, 14) 0.000976770999841
+Just Popped: (12, 12) 0.000976770999841
+Just Popped: (12, 12) 0.000976770999841
+Just Popped: (12, 10) 0.000976770999841
+Just Popped: (13, 4) 0.0010051940335
+Just Popped: (12, 16) 0.00122070300858
+Just Popped: (12, 2) 0.001220724429
+Just Popped: (12, 11) 0.00122091162484
+Just Popped: (11, 8) 0.00127431738656
+Just Popped: (11, 4) 0.001371404971
+Just Popped: (11, 10) 0.00146505224984
+Just Popped: (12, 8) 0.00151845801156
+Just Popped: (12, 4) 0.001615545596
+Just Popped: (12, 10) 0.00170919287484
+Just Popped: (11, 7) 0.00176259863656
+Just Popped: (10, 16) 0.00195312488358
+Just Popped: (10, 2) 0.001953146304
+Just Popped: (11, 8) 0.00225087988656
+Just Popped: (11, 6) 0.00225087988656
+Just Popped: (10, 4) 0.002347967471
+Just Popped: (11, 16) 0.00244140613358
+Just Popped: (11, 2) 0.002441427554
+Just Popped: (10, 10) 0.00244161474984
+Just Popped: (11, 7) 0.00273916113656
+Just Popped: (11, 4) 0.002836248721
+Just Popped: (10, 1) 0.002929708804
+Just Popped: (11, 10) 0.00292989599984
+Just Popped: (10, 6) 0.00322744238656
+Just Popped: (10, 11) 0.00341817724984
+Just Popped: (11, 6) 0.00371572363656
+Just Popped: (9, 16) 0.00390624988358
+Just Popped: (10, 2) 0.003906271304
+Just Popped: (9, 4) 0.004301092471
+Just Popped: (10, 12) 0.00439473974984
+Just Popped: (10, 10) 0.00439473974984
+Just Popped: (10, 16) 0.00488281238358
+Just Popped: (9, 1) 0.004882833804
+Just Popped: (9, 6) 0.00518056738656
+Just Popped: (10, 4) 0.005277654971
+Just Popped: (10, 13) 0.00537130224984
+Just Popped: (10, 11) 0.00537130224984
+Just Popped: (10, 1) 0.005859396304
+Just Popped: (10, 6) 0.00615712988656
+Just Popped: (10, 14) 0.00634786474984
+Just Popped: (10, 12) 0.00634786474984
+Just Popped: (10, 13) 0.00732442724984
+Just Popped: (8, 16) 0.00781249988358
+Just Popped: (8, 4) 0.008207342471
+Just Popped: (9, 14) 0.00830098974984
+Just Popped: (8, 1) 0.008789083804
+Just Popped: (8, 6) 0.00908681738656
+Just Popped: (10, 14) 0.00927755224984
+Just Popped: (9, 16) 0.00976562488358
+Just Popped: (9, 4) 0.010160467471
+Just Popped: (9, 1) 0.010742208804
+Just Popped: (9, 6) 0.0110399423866
+Just Popped: (8, 3) 0.012113592471
+Just Popped: (8, 14) 0.0122072397498
+Just Popped: (9, 14) 0.0141603647498
+Just Popped: (7, 16) 0.0156249998836
+Just Popped: (8, 4) 0.016019842471
+Just Popped: (8, 13) 0.0161134897498
+Just Popped: (7, 1) 0.016601583804
+Just Popped: (7, 6) 0.0168993173866
+Just Popped: (8, 16) 0.0195312498836
+Just Popped: (7, 3) 0.019926092471
+Just Popped: (8, 14) 0.0200197397498
+Just Popped: (8, 12) 0.0200197397498
+Just Popped: (8, 1) 0.020507833804
+Just Popped: (8, 6) 0.0208055673866
+Just Popped: (8, 3) 0.023832342471
+Just Popped: (8, 13) 0.0239259897498
+Just Popped: (8, 11) 0.0239259897498
+Just Popped: (8, 12) 0.0278322397498
+Just Popped: (8, 10) 0.0278322397498
+Just Popped: (6, 16) 0.0312499998836
+Just Popped: (8, 11) 0.0317384897498
+Just Popped: (8, 9) 0.0317384897498
+Just Popped: (6, 1) 0.032226583804
+Just Popped: (6, 6) 0.0325243173866
+Just Popped: (6, 3) 0.035551092471
+Just Popped: (8, 10) 0.0356447397498
+Just Popped: (8, 8) 0.0356447397498
+Just Popped: (7, 16) 0.0390624998836
+Just Popped: (8, 9) 0.0395509897498
+Just Popped: (7, 1) 0.040039083804
+Just Popped: (7, 6) 0.0403368173866
+Just Popped: (7, 3) 0.043363592471
+Just Popped: (7, 8) 0.0434572397498
+Just Popped: (8, 8) 0.0473634897498
+Just Popped: (6, 5) 0.0481493173866
+Just Popped: (6, 8) 0.0590822397498
+Just Popped: (5, 16) 0.0624999998836
+Just Popped: (5, 1) 0.063476583804
+Just Popped: (6, 6) 0.0637743173866
+Just Popped: (5, 3) 0.066801092471
+Just Popped: (7, 8) 0.0668947397498
+Just Popped: (6, 9) 0.0747072397498
+Just Popped: (6, 16) 0.0781249998836
+Just Popped: (6, 1) 0.079101583804
+Just Popped: (5, 5) 0.0793993173866
+Just Popped: (6, 3) 0.082426092471
+Just Popped: (6, 10) 0.0903322397498
+Just Popped: (6, 8) 0.0903322397498
+Just Popped: (6, 5) 0.0950243173866
+Just Popped: (6, 11) 0.10595723975
+Just Popped: (6, 9) 0.10595723975
+Just Popped: (6, 12) 0.12158223975
+Just Popped: (6, 10) 0.12158223975
+Just Popped: (4, 16) 0.124999999884
+Just Popped: (4, 1) 0.125976583804
+Just Popped: (4, 3) 0.129301092471
+Just Popped: (6, 13) 0.13720723975
+Just Popped: (6, 11) 0.13720723975
+Just Popped: (4, 5) 0.141899317387
+Just Popped: (6, 14) 0.15283223975
+Just Popped: (6, 12) 0.15283223975
+Just Popped: (5, 16) 0.156249999884
+Just Popped: (5, 1) 0.157226583804
+Just Popped: (5, 3) 0.160551092471
+Just Popped: (6, 13) 0.16845723975
+Just Popped: (5, 5) 0.173149317387
+Just Popped: (5, 14) 0.18408223975
+Just Popped: (6, 14) 0.19970723975
+Just Popped: (4, 14) 0.24658223975
+Just Popped: (3, 16) 0.249999999884
+Just Popped: (3, 1) 0.250976583804
+Just Popped: (3, 3) 0.254301092471
+Just Popped: (3, 5) 0.266899317387
+Just Popped: (5, 14) 0.27783223975
+Just Popped: (4, 13) 0.30908223975
+Just Popped: (4, 16) 0.312499999884
+Just Popped: (4, 1) 0.313476583804
+Just Popped: (4, 3) 0.316801092471
+Just Popped: (4, 5) 0.329399317387
+Just Popped: (4, 14) 0.37158223975
+Just Popped: (4, 12) 0.37158223975
+Just Popped: (4, 13) 0.43408223975
+Just Popped: (4, 11) 0.43408223975
+Just Popped: (4, 12) 0.49658223975
+Just Popped: (4, 10) 0.49658223975
+Just Popped: (2, 16) 0.499999999884
+Just Popped: (2, 1) 0.500976583804
+Just Popped: (2, 3) 0.504301092471
+Just Popped: (2, 5) 0.516899317387
+Just Popped: (4, 11) 0.55908223975
+Just Popped: (4, 9) 0.55908223975
+Just Popped: (3, 10) 0.62158223975
+Just Popped: (4, 10) 0.62158223975
+Just Popped: (4, 8) 0.62158223975
+Just Popped: (3, 16) 0.624999999884
+Just Popped: (3, 1) 0.625976583804
+Just Popped: (3, 3) 0.629301092471
+Just Popped: (3, 5) 0.641899317387
+Just Popped: (4, 10) 0.68408223975
+Just Popped: (4, 9) 0.68408223975
+Just Popped: (4, 7) 0.68408223975
+Just Popped: (4, 8) 0.74658223975
+Just Popped: (3, 7) 0.80908223975
+Just Popped: (4, 7) 0.87158223975
+Just Popped: (1, 16) 0.999999999884
+Just Popped: (1, 1) 1.0009765838
+Goal found!
+*** PASS: test_cases\q3\ucs_2_problemE.test
+*** 	pacman layout:		mediumMaze
+*** 	solution length: 74
+*** 	nodes expanded:		260
+Start: (34, 16)
+Is the start a goal? False
+Add start to fringe
+Starting search
+Just Popped: (34, 16) 0
+Just Popped: (33, 16) 8589934592
+Just Popped: (32, 16) 12884901888
+Just Popped: (31, 16) 15032385536
+Just Popped: (30, 16) 16106127360
+Just Popped: (29, 16) 16642998272
+Just Popped: (28, 16) 16911433728
+Just Popped: (27, 16) 17045651456
+Just Popped: (26, 16) 17112760320
+Just Popped: (25, 16) 17146314752
+Just Popped: (24, 16) 17163091968
+Just Popped: (23, 16) 17171480576
+Just Popped: (22, 16) 17175674880
+Just Popped: (21, 16) 17177772032
+Just Popped: (20, 16) 17178820608
+Just Popped: (19, 16) 17179344896
+Just Popped: (18, 16) 17179607040
+Just Popped: (17, 16) 17179738112
+Just Popped: (16, 16) 17179803648
+Just Popped: (15, 16) 17179836416
+Just Popped: (14, 16) 17179852800
+Just Popped: (13, 16) 17179860992
+Just Popped: (12, 16) 17179865088
+Just Popped: (11, 16) 17179867136
+Just Popped: (10, 16) 17179868160
+Just Popped: (9, 16) 17179868672
+Just Popped: (8, 16) 17179868928
+Just Popped: (7, 16) 17179869056
+Just Popped: (6, 16) 17179869120
+Just Popped: (5, 16) 17179869152
+Just Popped: (4, 16) 17179869168
+Just Popped: (3, 16) 17179869176
+Just Popped: (2, 16) 17179869180
+Just Popped: (1, 16) 17179869182
+Just Popped: (34, 15) 17179869184
+Just Popped: (25, 15) 17179869184
+Just Popped: (1, 15) 17179869184
+Just Popped: (2, 16) 17179869186
+Just Popped: (1, 16) 17179869186
+Just Popped: (1, 14) 17179869186
+Just Popped: (3, 16) 17179869188
+Just Popped: (1, 15) 17179869188
+Just Popped: (1, 13) 17179869188
+Just Popped: (1, 14) 17179869190
+Just Popped: (1, 12) 17179869190
+Just Popped: (4, 16) 17179869192
+Just Popped: (1, 13) 17179869192
+Just Popped: (1, 11) 17179869192
+Just Popped: (1, 12) 17179869194
+Just Popped: (1, 10) 17179869194
+Just Popped: (1, 11) 17179869196
+Just Popped: (1, 9) 17179869196
+Just Popped: (1, 10) 17179869198
+Just Popped: (1, 8) 17179869198
+Just Popped: (5, 16) 17179869200
+Just Popped: (1, 9) 17179869200
+Just Popped: (1, 7) 17179869200
+Just Popped: (1, 8) 17179869202
+Just Popped: (2, 7) 17179869204
+Just Popped: (1, 7) 17179869206
+Just Popped: (3, 7) 17179869212
+Just Popped: (6, 16) 17179869216
+Just Popped: (2, 7) 17179869216
+Just Popped: (4, 7) 17179869228
+Just Popped: (3, 7) 17179869236
+Just Popped: (4, 8) 17179869244
+Just Popped: (7, 16) 17179869248
+Just Popped: (4, 9) 17179869260
+Just Popped: (4, 7) 17179869260
+Just Popped: (4, 10) 17179869276
+Just Popped: (4, 8) 17179869276
+Just Popped: (3, 10) 17179869284
+Just Popped: (4, 11) 17179869292
+Just Popped: (4, 9) 17179869292
+Just Popped: (4, 10) 17179869300
+Just Popped: (4, 12) 17179869308
+Just Popped: (4, 10) 17179869308
+Just Popped: (8, 16) 17179869312
+Just Popped: (4, 13) 17179869324
+Just Popped: (4, 11) 17179869324
+Just Popped: (4, 14) 17179869340
+Just Popped: (4, 12) 17179869340
+Just Popped: (4, 13) 17179869356
+Just Popped: (5, 14) 17179869372
+Just Popped: (4, 14) 17179869388
+Just Popped: (6, 14) 17179869436
+Just Popped: (9, 16) 17179869440
+Just Popped: (5, 14) 17179869468
+Just Popped: (6, 13) 17179869500
+Just Popped: (6, 14) 17179869564
+Just Popped: (6, 12) 17179869564
+Just Popped: (6, 13) 17179869628
+Just Popped: (6, 11) 17179869628
+Just Popped: (6, 12) 17179869692
+Just Popped: (6, 10) 17179869692
+Just Popped: (10, 16) 17179869696
+Just Popped: (6, 11) 17179869756
+Just Popped: (6, 9) 17179869756
+Just Popped: (6, 10) 17179869820
+Just Popped: (6, 8) 17179869820
+Just Popped: (6, 9) 17179869884
+Just Popped: (7, 8) 17179869948
+Just Popped: (6, 8) 17179870012
+Just Popped: (8, 8) 17179870204
+Just Popped: (11, 16) 17179870208
+Just Popped: (7, 8) 17179870332
+Just Popped: (8, 9) 17179870460
+Just Popped: (8, 10) 17179870716
+Just Popped: (8, 8) 17179870716
+Just Popped: (8, 11) 17179870972
+Just Popped: (8, 9) 17179870972
+Just Popped: (8, 12) 17179871228
+Just Popped: (8, 10) 17179871228
+Just Popped: (12, 16) 17179871232
+Just Popped: (8, 13) 17179871484
+Just Popped: (8, 11) 17179871484
+Just Popped: (8, 14) 17179871740
+Just Popped: (8, 12) 17179871740
+Just Popped: (8, 13) 17179871996
+Just Popped: (9, 14) 17179872252
+Just Popped: (8, 14) 17179872508
+Just Popped: (10, 14) 17179873276
+Just Popped: (13, 16) 17179873280
+Just Popped: (9, 14) 17179873788
+Just Popped: (10, 13) 17179874300
+Just Popped: (10, 14) 17179875324
+Just Popped: (10, 12) 17179875324
+Just Popped: (10, 13) 17179876348
+Just Popped: (10, 11) 17179876348
+Just Popped: (10, 12) 17179877372
+Just Popped: (10, 10) 17179877372
+Just Popped: (14, 16) 17179877376
+Just Popped: (10, 11) 17179878396
+Just Popped: (11, 10) 17179879420
+Just Popped: (10, 10) 17179880444
+Just Popped: (12, 10) 17179883516
+Just Popped: (11, 10) 17179885564
+Just Popped: (15, 16) 17179885568
+Just Popped: (12, 11) 17179887612
+Just Popped: (12, 12) 17179891708
+Just Popped: (12, 10) 17179891708
+Just Popped: (12, 13) 17179895804
+Just Popped: (12, 11) 17179895804
+Just Popped: (13, 12) 17179899900
+Just Popped: (12, 14) 17179899900
+Just Popped: (12, 12) 17179899900
+Just Popped: (16, 16) 17179901952
+Just Popped: (12, 12) 17179903996
+Just Popped: (12, 13) 17179903996
+Just Popped: (13, 14) 17179908092
+Just Popped: (12, 14) 17179912188
+Just Popped: (14, 12) 17179916284
+Just Popped: (14, 14) 17179924476
+Just Popped: (13, 12) 17179924476
+Just Popped: (14, 11) 17179932668
+Just Popped: (13, 14) 17179932668
+Just Popped: (17, 16) 17179934720
+Just Popped: (15, 12) 17179949052
+Just Popped: (14, 12) 17179949052
+Just Popped: (14, 10) 17179949052
+Just Popped: (15, 14) 17179957244
+Just Popped: (14, 12) 17179965436
+Just Popped: (14, 11) 17179965436
+Just Popped: (14, 14) 17179973628
+Just Popped: (15, 10) 17179981820
+Just Popped: (14, 10) 17179998204
+Just Popped: (18, 16) 17180000256
+Just Popped: (16, 12) 17180014588
+Just Popped: (16, 14) 17180022780
+Just Popped: (16, 10) 17180047356
+Just Popped: (15, 12) 17180047356
+Just Popped: (15, 14) 17180055548
+Just Popped: (15, 10) 17180080124
+Just Popped: (19, 16) 17180131328
+Just Popped: (17, 12) 17180145660
+Just Popped: (17, 14) 17180153852
+Just Popped: (17, 10) 17180178428
+Just Popped: (16, 12) 17180211196
+Just Popped: (16, 14) 17180219388
+Just Popped: (16, 10) 17180243964
+Just Popped: (17, 13) 17180276732
+Just Popped: (17, 13) 17180284924
+Just Popped: (17, 9) 17180309500
+Just Popped: (20, 16) 17180393472
+Just Popped: (18, 12) 17180407804
+Just Popped: (17, 14) 17180407804
+Just Popped: (17, 12) 17180407804
+Just Popped: (17, 10) 17180440572
+Just Popped: (17, 8) 17180440572
+Just Popped: (16, 8) 17180506108
+Just Popped: (17, 12) 17180538876
+Just Popped: (15, 8) 17180538876
+Just Popped: (14, 8) 17180555260
+Just Popped: (13, 8) 17180563452
+Just Popped: (12, 8) 17180567548
+Just Popped: (11, 8) 17180569596
+Just Popped: (17, 9) 17180571644
+Just Popped: (11, 7) 17180571644
+Just Popped: (12, 8) 17180573692
+Just Popped: (11, 8) 17180573692
+Just Popped: (11, 6) 17180573692
+Just Popped: (10, 6) 17180574716
+Just Popped: (9, 6) 17180575228
+Just Popped: (8, 6) 17180575484
+Just Popped: (7, 6) 17180575612
+Just Popped: (6, 6) 17180575676
+Just Popped: (13, 8) 17180575740
+Just Popped: (11, 7) 17180575740
+Just Popped: (6, 5) 17180575740
+Just Popped: (5, 5) 17180575772
+Just Popped: (4, 5) 17180575788
+Just Popped: (3, 5) 17180575796
+Just Popped: (2, 5) 17180575800
+Just Popped: (1, 5) 17180575802
+Just Popped: (7, 6) 17180575804
+Just Popped: (6, 6) 17180575804
+Just Popped: (1, 4) 17180575804
+Just Popped: (2, 5) 17180575806
+Just Popped: (1, 5) 17180575806
+Just Popped: (1, 3) 17180575806
+Just Popped: (3, 5) 17180575808
+Just Popped: (1, 4) 17180575808
+Just Popped: (2, 3) 17180575810
+Just Popped: (4, 5) 17180575812
+Just Popped: (1, 3) 17180575812
+Just Popped: (3, 3) 17180575818
+Just Popped: (5, 5) 17180575820
+Just Popped: (2, 3) 17180575822
+Just Popped: (4, 3) 17180575834
+Just Popped: (6, 5) 17180575836
+Just Popped: (3, 3) 17180575842
+Just Popped: (5, 3) 17180575866
+Just Popped: (8, 6) 17180575868
+Just Popped: (4, 3) 17180575882
+Just Popped: (6, 3) 17180575930
+Just Popped: (5, 3) 17180575962
+Just Popped: (9, 6) 17180575996
+Just Popped: (7, 3) 17180576058
+Just Popped: (6, 3) 17180576122
+Just Popped: (10, 6) 17180576252
+Just Popped: (8, 3) 17180576314
+Just Popped: (7, 3) 17180576442
+Just Popped: (8, 4) 17180576570
+Just Popped: (11, 6) 17180576764
+Just Popped: (8, 3) 17180576826
+Just Popped: (9, 4) 17180577082
+Just Popped: (8, 4) 17180577338
+Just Popped: (10, 4) 17180578106
+Just Popped: (9, 4) 17180578618
+Just Popped: (14, 8) 17180579836
+Just Popped: (11, 4) 17180580154
+Just Popped: (10, 4) 17180581178
+Just Popped: (12, 4) 17180584250
+Just Popped: (11, 4) 17180586298
+Just Popped: (15, 8) 17180588028
+Just Popped: (13, 4) 17180592442
+Just Popped: (12, 4) 17180596538
+Just Popped: (13, 5) 17180600634
+Just Popped: (16, 8) 17180604412
+Just Popped: (13, 6) 17180608826
+Just Popped: (13, 4) 17180608826
+Just Popped: (13, 5) 17180617018
+Just Popped: (14, 6) 17180625210
+Just Popped: (13, 6) 17180633402
+Just Popped: (17, 8) 17180637180
+Just Popped: (15, 6) 17180657978
+Just Popped: (14, 6) 17180674362
+Just Popped: (16, 6) 17180723514
+Just Popped: (15, 6) 17180756282
+Just Popped: (17, 6) 17180854586
+Just Popped: (21, 16) 17180917760
+Just Popped: (16, 6) 17180920122
+Just Popped: (19, 12) 17180932092
+Just Popped: (18, 6) 17181116730
+Just Popped: (18, 12) 17181194236
+Just Popped: (17, 6) 17181247802
+Just Popped: (19, 11) 17181456380
+Just Popped: (19, 6) 17181641018
+Just Popped: (18, 6) 17181903162
+Just Popped: (22, 16) 17181966336
+Just Popped: (20, 12) 17181980668
+Just Popped: (19, 12) 17181980668
+Just Popped: (19, 7) 17182165306
+Just Popped: (19, 5) 17182165306
+Just Popped: (20, 11) 17182504956
+Just Popped: (19, 12) 17182504956
+Just Popped: (19, 6) 17182689594
+Just Popped: (19, 6) 17182689594
+Just Popped: (19, 4) 17182689594
+Just Popped: (18, 4) 17182951738
+Just Popped: (20, 11) 17183029244
+Just Popped: (19, 11) 17183029244
+Just Popped: (17, 4) 17183082810
+Just Popped: (16, 4) 17183148346
+Just Popped: (15, 4) 17183181114
+Just Popped: (20, 7) 17183213882
+Just Popped: (19, 5) 17183213882
+Just Popped: (15, 3) 17183213882
+Just Popped: (16, 4) 17183246650
+Just Popped: (15, 4) 17183246650
+Just Popped: (15, 2) 17183246650
+Just Popped: (14, 2) 17183263034
+Just Popped: (13, 2) 17183271226
+Just Popped: (12, 2) 17183275322
+Just Popped: (11, 2) 17183277370
+Just Popped: (10, 2) 17183278394
+Just Popped: (17, 4) 17183279418
+Just Popped: (15, 3) 17183279418
+Just Popped: (10, 1) 17183279418
+Just Popped: (9, 1) 17183279930
+Just Popped: (8, 1) 17183280186
+Just Popped: (7, 1) 17183280314
+Just Popped: (6, 1) 17183280378
+Just Popped: (5, 1) 17183280410
+Just Popped: (4, 1) 17183280426
+Just Popped: (3, 1) 17183280434
+Just Popped: (2, 1) 17183280438
+Just Popped: (1, 1) 17183280440
+Goal found!
+*** PASS: test_cases\q3\ucs_3_problemW.test
+*** 	pacman layout:		mediumMaze
+*** 	solution length: 152
+*** 	nodes expanded:		173
+Start: ((2, 3), <game.Grid instance at 0x0541DAF8>)
+Is the start a goal? False
+Add start to fringe
+Starting search
+Just Popped: ((2, 3), <game.Grid instance at 0x0541DAF8>) 0
+Just Popped: ((3, 3), <game.Grid instance at 0x0541D698>) 1
+Just Popped: ((1, 3), <game.Grid instance at 0x0541D300>) 1
+Just Popped: ((3, 2), <game.Grid instance at 0x0541DDC8>) 2
+Just Popped: ((2, 3), <game.Grid instance at 0x0541D6E8>) 2
+Just Popped: ((2, 3), <game.Grid instance at 0x0541D198>) 2
+Just Popped: ((3, 3), <game.Grid instance at 0x0541DDF0>) 3
+Just Popped: ((3, 1), <game.Grid instance at 0x0541DC38>) 3
+Just Popped: ((3, 3), <game.Grid instance at 0x0541D6E8>) 3
+Just Popped: ((1, 3), <game.Grid instance at 0x0541DBE8>) 3
+Just Popped: ((3, 2), <game.Grid instance at 0x0541DDF0>) 4
+Just Popped: ((2, 1), <game.Grid instance at 0x0541DB48>) 4
+Just Popped: ((3, 2), <game.Grid instance at 0x0541D620>) 4
+Just Popped: ((2, 3), <game.Grid instance at 0x0541D0F8>) 4
+Just Popped: ((3, 1), <game.Grid instance at 0x0541DDF0>) 5
+Just Popped: ((1, 1), <game.Grid instance at 0x0541DBE8>) 5
+Just Popped: ((3, 3), <game.Grid instance at 0x0541EF08>) 5
+Just Popped: ((3, 1), <game.Grid instance at 0x0541ED50>) 5
+Just Popped: ((2, 1), <game.Grid instance at 0x0541DDF0>) 6
+Just Popped: ((3, 2), <game.Grid instance at 0x0541EF08>) 6
+Just Popped: ((2, 1), <game.Grid instance at 0x05423AF8>) 6
+Just Popped: ((3, 1), <game.Grid instance at 0x05423AA8>) 7
+Just Popped: ((1, 1), <game.Grid instance at 0x05423A80>) 7
+Just Popped: ((3, 1), <game.Grid instance at 0x0541EF08>) 7
+Just Popped: ((1, 1), <game.Grid instance at 0x05423850>) 7
+Goal found!
+*** PASS: test_cases\q3\ucs_4_testSearch.test
+*** 	pacman layout:		testSearch
+*** 	solution length: 7
+*** 	nodes expanded:		14
+Start: A
+Is the start a goal? False
+Add start to fringe
+Starting search
+Just Popped: A 0
+Just Popped: B 1.0
+Just Popped: C 2.0
+Just Popped: G 3.0
+Goal found!
+*** PASS: test_cases\q3\ucs_5_goalAtDequeue.test
+*** 	solution:		['1:A->B', '0:B->C', '0:C->G']
+*** 	expanded_states:	['A', 'B', 'C']
+
+### Question q3: 3/3 ###
+
+
+Finished at 15:05:37
+
+Provisional grades
+==================
+Question q3: 3/3
+------------------
+Total: 3/3
+
+Your grades are NOT yet registered.  To register your grades, make sure
+to follow your instructor's guidelines to receive credit on your project.
+
