@@ -1,6 +1,6 @@
 # CS4100
 
-This repository is used to manage and submit the programming assignments for CS4100 - Artificial Intelligence
+This repository is used to store the programming assignments for CS4100 - Artificial Intelligence
 
 ## Programming Assignment 1 - Search Agents
 ### 1. To see breadth first search, use the any of the following terminal commands:
